@@ -1,11 +1,12 @@
 import '../styles/App.scss';
+import Calculator from '../components/Calculator'
+import Footer from './Footer';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <h1>Calculator</h1>
+      <Calculator />
+      <Footer />
     </div>
   );
 }
-
-export default App;
