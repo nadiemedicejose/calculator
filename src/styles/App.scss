@@ -1,3 +1,24 @@
+@import 'colors.scss', 'mixins.scss', 'calculator.scss';
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;400;600;700&display=swap');
+
 .App {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Sora', 'Helvetica', sans-serif;
   text-align: center;
+}
+
+body {
+  background-color: $main-bg-color;
+}
+
+footer {
+  a {
+    color: #E7859A;
+    text-decoration: none;
+    
+    &:hover {
+      color: #F3B8C6;
+    }
+  }
 }

@@ -4,24 +4,24 @@ export default class Calculator extends Component {
   render() {
     return (
       <div id='calculator'>
-        <div id='display'></div>
-        <div id='equals'>=</div>
-        <div id='zero'>0</div>
-        <div id='one'>1</div>
-        <div id='two'>2</div>
-        <div id='three'>3</div>
-        <div id='four'>4</div>
-        <div id='five'>5</div>
-        <div id='six'>6</div>
-        <div id='seven'>7</div>
-        <div id='eight'>8</div>
-        <div id='nine'>9</div>
-        <div id='add'>+</div>
-        <div id='subtract'>-</div>
-        <div id='multiply'>*</div>
-        <div id='divide'>/</div>
-        <div id='decimal'>.</div>
-        <div id='clear'>AC</div>
+        <div id='display' className='item'></div>
+        <div id='equals' className='item'>=</div>
+        <div id='seven' className='item'>7</div>
+        <div id='eight' className='item'>8</div>
+        <div id='nine' className='item'>9</div>
+        <div id='four' className='item'>4</div>
+        <div id='five' className='item'>5</div>
+        <div id='six' className='item'>6</div>
+        <div id='one' className='item'>1</div>
+        <div id='two' className='item'>2</div>
+        <div id='three' className='item'>3</div>
+        <div id='zero' className='item'>0</div>
+        <div id='add' className='item operation'>+</div>
+        <div id='subtract' className='item operation'>-</div>
+        <div id='multiply' className='item operation'>x</div>
+        <div id='divide' className='item operation'>/</div>
+        <div id='decimal' className='item'>.</div>
+        <div id='clear' className='item'>AC</div>
       </div>
     )
   }

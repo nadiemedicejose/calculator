@@ -1,0 +1,16 @@
+@mixin border($color) {
+  border: 2px solid $color;
+}
+
+@mixin btn-effects($bg-color, $border-color) {
+  background-color: $bg-color;
+  @include border($border-color);
+
+  &:hover {
+    background-color: darken($bg-color, 7%);
+  }
+
+  &:active {
+    background-color: lighten($bg-color, 7%);
+  }
+}
