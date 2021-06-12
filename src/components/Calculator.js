@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import CalculatorDisplay from './calculator/CalculatorDisplay';
 
+/* eslint no-eval: 0 */
+
 export default class Calculator extends Component {
   constructor(props) {
     super(props);

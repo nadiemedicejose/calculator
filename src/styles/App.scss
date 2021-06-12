@@ -1,18 +1,26 @@
 @import 'colors.scss', 'mixins.scss', 'calculator.scss';
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;400;600;700&display=swap');
 
-.App {
-  display: flex;
-  flex-direction: column;
-  font-family: 'Sora', 'Helvetica', sans-serif;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: $main-bg-color;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Sora', 'Helvetica', sans-serif;
+  text-align: center;
 }
 
 footer {
+  margin-top: 2rem;
+  line-height: 2rem;
+
   a {
     color: #E7859A;
     text-decoration: none;
