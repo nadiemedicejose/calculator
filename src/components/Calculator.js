@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import CalculatorDisplay from './calculator/CalculatorDisplay';
 
 export default class Calculator extends Component {
   render() {
     return (
       <div id='calculator'>
-        <div id='display' className='item'></div>
+        <CalculatorDisplay />
         <div id='equals' className='item'>=</div>
         <div id='seven' className='item'>7</div>
         <div id='eight' className='item'>8</div>
@@ -16,10 +17,10 @@ export default class Calculator extends Component {
         <div id='two' className='item'>2</div>
         <div id='three' className='item'>3</div>
         <div id='zero' className='item'>0</div>
-        <div id='add' className='item operation'>+</div>
-        <div id='subtract' className='item operation'>-</div>
-        <div id='multiply' className='item operation'>x</div>
-        <div id='divide' className='item operation'>/</div>
+        <div id='add' className='item operator'>+</div>
+        <div id='subtract' className='item operator'>-</div>
+        <div id='multiply' className='item operator'>x</div>
+        <div id='divide' className='item operator'>/</div>
         <div id='decimal' className='item'>.</div>
         <div id='clear' className='item'>AC</div>
       </div>
