@@ -17,6 +17,9 @@
   place-items: center;
   justify-content: stretch;
   align-content: center;
+  background-color: lighten($main-bg-color, 10%);
+  padding: 1rem;
+  border-radius: .5rem;
 }
 
 .item {
