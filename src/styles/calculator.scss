@@ -88,3 +88,11 @@
   @include btn-effects($eq-bg-color, $eq-border-color);
   grid-row: 6 / span 2;
 }
+
+@media screen and (orientation: landscape) {
+  #calculator {
+    max-width: 350px;
+    max-height: 500px;
+    margin: 0 auto;
+  }
+}
